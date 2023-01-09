@@ -73,6 +73,9 @@ function Warehouse() {
 		.then(data => {
 			setProducts(data)
 		})
+		.catch((error) => {
+			console.error('Error:', error);
+		});
 	}
 
 	const handleSearchPrice = () => {
@@ -81,6 +84,9 @@ function Warehouse() {
 		.then(data => {
 			setProducts(data)
 		})
+		.catch((error) => {
+			console.error('Error:', error);
+		});
 	}
 
 	const handleSearchQuantity = () => {
@@ -89,6 +95,9 @@ function Warehouse() {
 		.then(data => {
 			setProducts(data)
 		})
+		.catch((error) => {
+			console.error('Error:', error);
+		});
 	}
 
 	const handleReport = () => {
@@ -98,6 +107,9 @@ function Warehouse() {
 			setReportProducts(data.products)
 			setReportTotal(`Total value of all products: ${data.totalValue}`)
 		})
+		.catch((error) => {
+			console.error('Error:', error);
+		});
 	}
 
   return (

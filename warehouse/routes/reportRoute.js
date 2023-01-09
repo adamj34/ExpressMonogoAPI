@@ -26,7 +26,6 @@ router.get('/', async (req, res) => {
         .then(queryRes => queryRes[0])
         .then((data) => res.status(200).json(data))
         .catch((error) => res.status(400).json(error));
-    
 })
 
 export default router;
