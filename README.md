@@ -1,1 +1,1 @@
-# warehouse
+# bazy danych lab
