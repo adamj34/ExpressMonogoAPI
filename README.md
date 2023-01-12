@@ -1,1 +1,1 @@
-# bazy danych lab
+# bazy danych lab zad1
