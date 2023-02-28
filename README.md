@@ -1,1 +1,1 @@
-# Simple API I wrote in Express + MongoDB
+Simple Rest API I wrote in Express + MongoDB
