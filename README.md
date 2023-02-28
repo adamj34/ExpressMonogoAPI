@@ -1,1 +1,1 @@
-# bazy danych lab zad1
+# Simple API I wrote in Express + MongoDB
